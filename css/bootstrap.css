@@ -6756,6 +6756,10 @@ button.close {
 }
 /*# sourceMappingURL=bootstrap.css.map */
 
+.read-more-state {
+  display: none;
+}
+
 .read-more-target {
   opacity: 0;
   max-height: 0;
@@ -6775,4 +6779,15 @@ button.close {
 
 .read-more-state:checked ~ .read-more-trigger:before {
   content: 'Collapse';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
 }
